@@ -1,0 +1,58 @@
+/* Kohandatud menüü kaardi ülanurgas */
+.custom-menu {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    display: none; /* Peidetud vaikimisi */
+}
+
+/* Nupud menüüs */
+.custom-menu button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px 12px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.custom-menu button:hover {
+    background-color: #e0e0e0;
+}
+
+/* Loendustabeli konteiner */
+#results-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+/* Loendustabel */
+#results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+#results-table th, #results-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+#results-table th {
+    background-color: #f2f2f2;
+}
+
+#results-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

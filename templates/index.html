@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koela Kaardirakendus</title>
+    <!-- Viide CSS failile -->
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+</head>
+<body>
+    <!-- Kaardi konteiner -->
+    <div id="map" style="height: 100vh;"></div>
+
+    <!-- Tulemuste konteiner -->
+    <div id="results-container">
+        <h3>Mõõtmistulemused</h3>
+        <table id="results-table">
+            <thead>
+                <tr>
+                    <th>Ringi nimi</th>
+                    <th>Puid kokku</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Tabeli andmed lisatakse dünaamiliselt JavaScriptiga -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Viited kõikidele JavaScripti failidele -->
+    <script src="/static/js/utils.js"></script> <!-- Üldised abifunktsioonid -->
+    <script src="/static/js/map.js"></script>   <!-- Kaardi loomine -->
+    <script src="/static/js/rings.js"></script> <!-- Ringi lisamine ja haldamine -->
+    <script src="/static/js/trees.js"></script> <!-- Puude loendamine -->
+    <script src="/static/js/ui.js"></script>    <!-- Kasutajaliidese funktsioonid -->
+</body>
+</html>
